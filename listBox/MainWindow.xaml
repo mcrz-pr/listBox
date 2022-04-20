@@ -57,6 +57,6 @@
                 </CheckBox>
             </ListBoxItem>
         </ListBox>
-
+        <ProgressBar VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="500px" Minimum="0" Maximum="5" Value="2"/>
     </Grid>
 </Window>
