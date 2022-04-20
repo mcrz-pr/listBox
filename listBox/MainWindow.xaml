@@ -1,0 +1,62 @@
+﻿<Window x:Class="listBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:listBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="605" Width="557"  WindowStyle="None" WindowState="Maximized">
+    <Grid>
+        <ListBox>
+            <ListBoxItem Background="#ffbf00">
+                <CheckBox>
+                    <StackPanel>
+                        <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\chryzantemy.jpg" Height="100px"/>
+                        <TextBlock>Chryzantemy</TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="#ff5050">
+                <CheckBox>
+                    <StackPanel>
+                        <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\xp.jpg" Height="100px"/>
+                        <TextBlock>Kwiat</TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="#005050">
+                <CheckBox>
+                    <StackPanel>
+                        <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\japko.jpg" Height="100px"/>
+                        <TextBlock Foreground="white">Japko</TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="#ffffee">
+                <CheckBox>
+                    <StackPanel>
+                        <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\kiwi.jpg" Height="100px"/>
+                        <TextBlock>Kiwi</TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="#f0d0cc">
+                <CheckBox>
+                    <StackPanel>
+                        <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\lawenda.jpg" Height="100px"/>
+                        <TextBlock>Lawenda</TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem Background="#0000aa">
+                <CheckBox>
+                    <StackPanel>
+                        <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\suonecznig.jpg" Height="100px"/>
+                        <TextBlock Foreground="white">Suonecznig</TextBlock>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+        </ListBox>
+
+    </Grid>
+</Window>
