@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:listBox"
         mc:Ignorable="d"
-        Title="MainWindow" Height="605" Width="557"  WindowStyle="None" WindowState="Maximized">
+        Title="MainWindow" Height="934" Width="834"  WindowStyle="None" WindowState="Maximized">
     <Grid>
-        <ListBox>
+        <ListBox MaxHeight="800px" VerticalAlignment="Top">
             <ListBoxItem Background="#ffbf00">
-                <CheckBox>
+                <CheckBox x:Name="zolte" Click="all" Width="830">
                     <StackPanel>
                         <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\chryzantemy.jpg" Height="100px"/>
                         <TextBlock>Chryzantemy</TextBlock>
@@ -17,23 +17,23 @@
                 </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="#ff5050">
-                <CheckBox>
+                <CheckBox x:Name="czerwone" Click="all" Width="830">
                     <StackPanel>
                         <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\xp.jpg" Height="100px"/>
-                        <TextBlock>Kwiat</TextBlock>
+                        <TextBlock>XP</TextBlock>
                     </StackPanel>
                 </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="#005050">
-                <CheckBox>
+                <CheckBox x:Name="zielone" Click="all" Width="830">
                     <StackPanel>
                         <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\japko.jpg" Height="100px"/>
-                        <TextBlock Foreground="white">Japko</TextBlock>
+                        <TextBlock>Japko</TextBlock>
                     </StackPanel>
                 </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="#ffffee">
-                <CheckBox>
+                <CheckBox x:Name="biale" Click="all" Width="830">
                     <StackPanel>
                         <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\kiwi.jpg" Height="100px"/>
                         <TextBlock>Kiwi</TextBlock>
@@ -41,7 +41,7 @@
                 </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="#f0d0cc">
-                <CheckBox>
+                <CheckBox x:Name="rozowe" Click="all" Width="830">
                     <StackPanel>
                         <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\lawenda.jpg" Height="100px"/>
                         <TextBlock>Lawenda</TextBlock>
@@ -49,7 +49,7 @@
                 </CheckBox>
             </ListBoxItem>
             <ListBoxItem Background="#0000aa">
-                <CheckBox>
+                <CheckBox x:Name="niebieskie" Click="all" Width="830">
                     <StackPanel>
                         <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\suonecznig.jpg" Height="100px"/>
                         <TextBlock Foreground="white">Suonecznig</TextBlock>
@@ -57,6 +57,6 @@
                 </CheckBox>
             </ListBoxItem>
         </ListBox>
-        <ProgressBar VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="500px" Minimum="0" Maximum="5" Value="2"/>
+        <ProgressBar x:Name="progres" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="30" Width="500px" Minimum="0" Value="0" Maximum="6" Margin="0,0,0,150"/>
     </Grid>
 </Window>
