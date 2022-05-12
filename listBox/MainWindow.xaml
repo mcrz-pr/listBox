@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:listBox"
         mc:Ignorable="d"
-        Title="MainWindow" Height="934" Width="834"  WindowStyle="None" WindowState="Maximized">
+        Title="MainWindow" Height="871" Width="1400"  WindowStyle="None" WindowState="Maximized">
     <Grid>
         <ListBox MaxHeight="800px" VerticalAlignment="Top">
             <ListBoxItem Background="#ffbf00">
-                <CheckBox x:Name="zolte" Click="all" Width="830">
+                <CheckBox x:Name="zolte" Click="all" Width="830" Checked="chZolte">
                     <StackPanel>
                         <Image Source="C:\Users\Administrator\source\repos\listBox\listBox\Foty\chryzantemy.jpg" Height="100px"/>
                         <TextBlock>Chryzantemy</TextBlock>
@@ -58,5 +58,6 @@
             </ListBoxItem>
         </ListBox>
         <ProgressBar x:Name="progres" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="30" Width="500px" Minimum="0" Value="0" Maximum="6" Margin="0,0,0,150"/>
+        <Rectangle Stroke="Black" Fill="Black" Height="200px" Width="200px" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Visible"/>
     </Grid>
 </Window>

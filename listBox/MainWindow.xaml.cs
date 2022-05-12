@@ -38,6 +38,9 @@ namespace listBox
 
             progres.Value = x;
         }
-        
+        private void chZolte(object sender, RoutedEventArgs e)
+        {
+
         }
+    }
 }
